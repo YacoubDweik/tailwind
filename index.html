@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="output.css" />
+    <script
+      src="https://kit.fontawesome.com/70f5894254.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Website - Tailwind</title>
+  </head>
+  <body class="font-custom">
+    <nav
+      class="bg-red-600 text-white text-xl drop-shadow-2xl border-b-2 border-b-red-700 fixed top-0 left-0 right-0"
+      style="width: 100%"
+    >
+      <ul class="flex">
+        <li class="p-3 px-6 hover:bg-black sm:hidden">
+          <i class="fa-solid fa-bars"></i>
+        </li>
+        <li class="p-3 px-6 bg-black hidden sm:block">Home</li>
+        <li class="p-3 px-6 hover:bg-black hidden sm:block">Link 1</li>
+        <li class="p-3 px-6 hover:bg-black hidden sm:block">Link 2</li>
+        <li class="p-3 px-6 hover:bg-black hidden sm:block">Link 3</li>
+        <li class="p-3 px-6 hover:bg-black hidden sm:block">Link 4</li>
+        <div class="list">
+          <ul class="sm:hidden">
+            <li>Home</li>
+            <li>Link 1</li>
+            <li>Link 2</li>
+            <li>Link 3</li>
+            <li>Link 4</li>
+          </ul>
+        </div>
+      </ul>
+    </nav>
+    <section class="py-16 px-5 sm:p-24 bg-red-600 text-center text-white">
+      <h1 class="text-6xl py-6">START PAGE</h1>
+      <h4 class="py-6">Template by w3.css</h4>
+      <button
+        class="py-3 px-8 m-6 bg-black text-white hover:bg-slate-700 rounded"
+      >
+        <a href="#">Get Started!</a>
+      </button>
+    </section>
+    <section
+      class="grid sm:grid-cols-2 gap-10 items-center justify-center text-center sm:text-left w-4/5 mx-auto p-20"
+    >
+      <div>
+        <h2 class="text-3xl font-bold py-5">Lorem Ipsum</h2>
+        <p class="font-bold py-5">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat.
+        </p>
+        <p class="text-gray-500">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat. Excepteur sint occaecat cupidatat non
+          proident, sunt in culpa qui officia deserunt mollit anim id est
+          laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt
+          ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+          nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat.
+        </p>
+      </div>
+      <div class="text-red-500 sm:text-center">
+        <i class="fa-solid fa-anchor" style="font-size: 200px"></i>
+      </div>
+    </section>
+    <div class="bg-stone-300">
+      <section
+        class="grid sm:grid-cols-2 gap-10 items-center justify-center text-center sm:text-left w-4/5 mx-auto p-20"
+      >
+        <div class="text-red-500 sm:text-center">
+          <i class="fa-solid fa-mug-hot" style="font-size: 200px"></i>
+        </div>
+        <div>
+          <h2 class="text-3xl font-bold py-5">Lorem Ipsum</h2>
+          <p class="font-bold py-5">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat.
+          </p>
+          <p class="text-gray-500">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat. Excepteur sint occaecat cupidatat
+            non proident, sunt in culpa qui officia deserunt mollit anim id est
+            laborum consectetur adipiscing elit, sed do eiusmod tempor
+            incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+            veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+            ea commodo consequat.
+          </p>
+        </div>
+      </section>
+      <section class="bg-gray-500 text-white text-center p-24 text-4xl">
+        Quote of the day: live life
+      </section>
+    </div>
+    <section class="bg-stone-300 text-gray-500 text-center p-24 text-4xl">
+      <div class="icons text-xl">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-github"></i>
+      </div>
+      <span class="text-sm block mt-10">Powered by w3.css</span>
+    </section>
+  </body>
+</html>
